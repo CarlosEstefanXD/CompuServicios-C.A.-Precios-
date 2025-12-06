@@ -61,7 +61,7 @@ $porcentaje_cod  = (int)round($d2_pct * 100);
 /* ===== Plantilla de etiqueta y layout ===== */
 $ancho_cm=4.8; $alto_cm=2.88;         // tamaño etiqueta
 $margin_mm=0; $gap_mm=2;              // márgenes y separación
-$img_base = $publicUrl.'/assets/etiqueta_base.png';  // imagen fija
+$img_base = $publicUrl.'/etiqueta_base.png';  // imagen fija
 
 /* ===== Cálculo (soporta un precio o varios) ===== */
 $labels   = [];
@@ -700,7 +700,7 @@ button.secondary:hover{
   <div class="card">
     
   <div class="header-title">
-    <img src="assets/logo_compuservicios.png" alt="CompuServicios" class="title-logo">
+    <img src="logo_compuservicios.png" alt="CompuServicios" class="title-logo">
     <div class="title-sub">Etiquetas Automatizadas</div>
   </div>
 
@@ -897,4 +897,5 @@ button.secondary:hover{
 
 </div>
 </body>
+
 </html>
